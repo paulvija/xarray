@@ -8,9 +8,8 @@ imshow() and map projections
 
 Using rasterio's projection information for more accurate plots.
 
-This example extends :ref:`recipes.rasterio` and plots the image in the
-original map projection instead of relying on pcolormesh and a map
-transformation.
+This example plots a rasterio image in the original map projection instead
+of relying on pcolormesh and a map transformation.
 """
 
 import os
